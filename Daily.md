@@ -116,3 +116,7 @@ Computational Thinking - 조합, 시간 복잡도
 2. Master The Pivot (기술적인 도달 가능성)  
 3. Be User-Friendly (사용자가 사용하기 편리하도록 개발)  
 이 세가지를 항상 생각하자
+
+## 2020.01.10
+
+동적 계획법, 재귀
