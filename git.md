@@ -9,7 +9,7 @@ stage 단계 - 변경사항이 관리되기 시작하는 단계
 git add 파일명
 
 ### 기록하는 사람 정보 설정
-git config --global user.name 이름
+git config --global user.name 이름  
 git config --global user.email 이메일
 
 ### 위 부분 설정 끝난 후 커밋하기
@@ -20,6 +20,6 @@ git log - 기록 확인
 git log --online(옵션)
 
 ### 깃헙 주소 설정하기
-git remote add origin 깃헙주소 (https://github.com/greendolphin7/TIL_SSAFY.git)
+git remote add origin 깃헙주소 예 : https://github.com/greendolphin7/~~~
 
 git push origin master -> 저장 완료
