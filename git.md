@@ -23,3 +23,11 @@ git log --online(옵션)
 git remote add origin 깃헙주소 예 : https://github.com/greendolphin7/~~~
 
 git push origin master -> 저장 완료
+
+
+### 클론
+
+git clone + url
+
+업데이트 할 때 
+git pull origin
