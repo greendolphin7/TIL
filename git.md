@@ -31,3 +31,14 @@ git clone + url
 
 업데이트 할 때 
 git pull origin
+
+
+### .gitignore
+
+git을 쓸 때 파일에 변화가 존재해도 git에 영향을 끼치지 않게하는 파일이다.
+
+안에 파일 이름을 적으면 작동된다.
+
+또는 '*.py' 라고 작성하면 python 파일들은 모두 깃에 영향을 받지 않는다.
+
+gitignore.io 에 들어가면 자신의 프로젝트에 꼭 맞는 .gitignore 파일을 만들 수 있다.
