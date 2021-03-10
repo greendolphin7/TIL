@@ -15,3 +15,15 @@
 6. model.py에서 데이터 필드와 속성 정하기
 7. manage.py를 실행시켜 makemigrations, migrate 두 명령어로 DB 생성
 8. sqlite와 어떻게 연동시킬지는 더 찾아봐야 함.
+
+---------------------------------------------------------------------------
+
+
+프로젝트 생성 ( $ django-admin startproject 프로젝트 이름)
+
+앱 생성 ( $ python manage.py startapp 앱이름)
+
+앱 만들고 settings.py 에 앱 등록 / + 언어, 시간 등록
+
+만드는 순서 : urls.py -> views.py -> index.html
+
