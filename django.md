@@ -32,4 +32,9 @@
 {% block content %} {% endblock content %} 로 상속받는 템플릿에 내용 추가하는 부분
 
 동적 라우팅
-path('내url/<int:아이디>/', views.내url, name='url별명'),
+path('내url/<int:아이디>/', views.내url, name='url별명')
+
+```html
+<form action="{% url 'articles:create' %}" method="POST">
+```
+위와 같이 form을 통해 데이터를 주고 views에서 request로 받는다. (POST 요청)
