@@ -19,20 +19,30 @@
 ---------------------------------------------------------------------------
 
 
-프로젝트 생성 ( $ django-admin startproject 프로젝트 이름)
+### 프로젝트 생성
+```
+$ django-admin startproject 프로젝트 이름
+```
 
-앱 생성 ( $ python manage.py startapp 앱이름)
+### 앱 생성
+```
+$ python manage.py startapp 앱이름
+```
 
 앱 만들고 settings.py 에 앱 등록 / + 언어, 시간 등록
 
 만드는 순서 : urls.py -> views.py -> index.html
 
+---------------------------------------------------
+
 {% extends '파일이름.html' %}  # 템플릿 상속 받기
 
 {% block content %} {% endblock content %} 로 상속받는 템플릿에 내용 추가하는 부분
 
-동적 라우팅
+### 동적 라우팅
+```
 path('내url/<int:아이디>/', views.내url, name='url별명')
+```
 
 ```html
 <form action="{% url 'articles:create' %}" method="POST">
