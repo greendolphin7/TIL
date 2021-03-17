@@ -48,3 +48,32 @@ path('내url/<int:아이디>/', views.내url, name='url별명')
 <form action="{% url 'articles:create' %}" method="POST">
 ```
 위와 같이 form을 통해 데이터를 주고 views에서 request로 받는다. (POST 요청)
+
+
+## Django Form
+
+### 1. Form을 사용하는 이유
+
+1. 유효성 검사 및 데이터 손상의 방어 수단
+2. 코드의 재사용 
+
+### 2. Form Class
+
+- Form 관리 시스템의 핵심
+  - field, widget
+  - 렌더링 방식 (as_p, as_table, as_ul)
+- model을 정의하는 것과 유사하지만 목적과 용도가 분명히 다름
+
+
+### 3. Form vs. ModelForm
+
+### Form
+
+- **어떤 모델에 저장해야할지 알지 못함**
+- 유효성 검사를 한 뒤, 실제로 DB에 저장할 때는 **cleaned_data** 그리고 Article.objects.create()를 사용해서 따로 **save()**를 진행 
+
+### ModelForm
+
+- **어떤 모델을 참고해야할지 이미 알고있음**
+
+- forms.py에 Meta 정보(클래스)로 `models.py`에 정의한 Article을 넘겼기 때문에, 어떤 모델에 저장해야할지 알고 있어서 **바로 `form.save()`가 가능**
