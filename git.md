@@ -56,6 +56,6 @@ i를 누르면 데이터 넣기 모드 (esc를 누르면 모드 취소)
 
 ### git reset 
 id 값은 $ git log --oneline 으로 확인 가능
-$ git reset --hard id값  : 코드도 변하고 커밋하기 전으로 돌아감
-$ git reset --soft id값  : 코드는 변하지 않고 add 한 후로 돌아감 (staging)
-$ git reset id 값        : 코드는 변하지 않고 커밋하기 전으로 돌아감 (working directory)
+$ git reset --hard id값  : 코드도 변하고 커밋하기 전으로 돌아감  
+$ git reset --soft id값  : 코드는 변하지 않고 add 한 후로 돌아감 (staging)  
+$ git reset id 값        : 코드는 변하지 않고 커밋하기 전으로 돌아감 (working directory)  
