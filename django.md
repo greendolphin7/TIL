@@ -70,7 +70,7 @@ path('내url/<int:아이디>/', views.내url, name='url별명')
 ### Form
 
 - **어떤 모델에 저장해야할지 알지 못함**
-- 유효성 검사를 한 뒤, 실제로 DB에 저장할 때는 **cleaned_data** 그리고 Article.objects.create()를 사용해서 따로 **save()**를 진행 
+- 유효성 검사를 한 뒤, 실제로 DB에 저장할 때는 **cleaned_data** 그리고 Article.objects.create()를 사용해서 따로 **`save()`** 를 진행 
 
 ### ModelForm
 
