@@ -158,3 +158,8 @@ pair programming
 ## 2021.03.28 
 
 오늘은 내일 있을 월말 평가를 대비해서 django CRUD와 이것저것 복습해보았다.
+
+
+## 2021.04.26
+
+Django REST Framework
