@@ -12,6 +12,12 @@ Todo
 
 5. 데이터 props로 넘겨주고 하위 컴포넌트에서 바인드해서 받기
 
+6. App.vue에 form에서 리스너 달아주고 함수(onNewTodo) 선언.
+
+7. props를 통해 데이터 App -> List -> ListItem으로 내려주기.
+
+8. 삭제 기능을 위해 삭제 버튼에 이벤트 함수 선언
+
 
 Movie
 
